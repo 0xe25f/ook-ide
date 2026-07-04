@@ -2,8 +2,6 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/0xe25f/ook-ide?style=social)](https://github.com/0xe25f/ook-ide)
 
-Launch it live via GitHub Pages: 
-
 <p>
   <kbd>Offline ready</kbd>
   <kbd>Single-file HTML</kbd>
