@@ -1,5 +1,9 @@
 # Ook!++ IDE
 
+[![GitHub Repo stars](https://img.shields.io/github/stars/0xe25f/ook-ide?style=social)](https://github.com/0xe25f/ook-ide)
+
+Launch it live via GitHub Pages: 
+
 <p>
   <kbd>Offline ready</kbd>
   <kbd>Single-file HTML</kbd>
@@ -13,6 +17,8 @@
 Ook!++ IDE is a single-file, offline, no-server programming playground for Ook!++: a friendly helper dialect that can be interpreted directly, prettified, debugged, and compiled back into original Ook!, Brainfuck, JavaScript, or Dragon Palm assembly/cart output.
 
 If this project made you smile, taught you something odd, or helped you make a tiny programme, please star it. Stars are small, harmless, and surprisingly motivational.
+
+* GitHub Repository: [0xe25f/ook-ide](https://github.com/0xe25f/ook-ide)
 
 ## Features
 
@@ -34,7 +40,7 @@ If this project made you smile, taught you something odd, or helped you make a t
 
 ## Quick Start
 
-Open `ook-ide.html` in a modern browser. That is it.
+Open [ook-ide.html](https://0xe25f.github.io/ook-ide/ook-ide.html) in a modern browser. That is it.
 
 Try this:
 
