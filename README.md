@@ -7,12 +7,13 @@
   <kbd>Single-file HTML</kbd>
   <kbd>No CDN</kbd>
   <kbd>No Server</kbd>
+  <kbd>Embedded Assets</kbd>
   <kbd>MIT Licensed</kbd>
 </p>
 
 **Do androids dream of orangutans?**
 
-Ook!++ IDE is a single-file, offline, no-server programming playground for Ook!++: a friendly helper dialect that can be interpreted directly, prettified, debugged, and compiled back into original Ook!, Bf*, JavaScript, or Dragon Palm assembly/cart output.
+Ook!++ IDE is a single-file, offline, no-server programming playground for Ook!++: a friendly helper dialect that can be interpreted directly, suggested, prettified, debugged, and compiled back into original Ook!, Bf*, JavaScript, or Dragon Palm assembly/cart output.
 
 If this project made you smile, taught you something odd, or helped you make a tiny programme, please star it. Stars are small, harmless, and surprisingly motivational.
 
@@ -20,21 +21,25 @@ If this project made you smile, taught you something odd, or helped you make a t
 
 ## Features
 
-- All-in-one `ook-ide.html`: no CDN, no build step, no server, no internet required.
+- All-in-one `ook-ide.html`: no CDN, no build step, no server, and no external assets required.
 - Modern responsive IDE inspired by VS Code and JetBrains, with movable panels and saved layout preferences.
 - Hot-swappable English, German, and Spanish interface.
 - Dark, light, and automatic colour themes.
 - Page font and editor text-size preferences.
 - Prettified, coloured Ook!++ editor with line numbers and red-dot breakpoints.
+- Suggest button beside Prettify, with deterministic suggestions enabled by default.
+- Deterministic suggestions can creatively repair or improve local code without an LLM: helper typos, missing prefixes, raw text, `console.log(...)`, raw Bf*, unquoted `say`, missing output, and unmatched loops.
+- Optional OpenAI-compatible LLM suggestion service settings in Preferences, with endpoint, model, secret key, and an accordion-hidden system prompt.
+- Notification overlay for suggestion errors and successful LLM responses, with a Copy Details button that copies verbose diagnostics.
 - Built-in interpreter with input, output, tape viewer, diagnostics, and step limit protection.
 - Debugger with start, step, continue, reset, and line breakpoint support.
 - Compiler output modes for JavaScript, Bf*, original Ook!, and Dragon Palm assembly.
 - Dragon Palm `.dgc` cartridge saving.
 - Manual overlay with copyable code blocks, tutorial pages, Credits, and MIT License pages.
-- On-boarding tutorial and achievements system for exploring, debugging, compiling, saving, and creating.
-- Ookie the Orangutan mascot encourages you to compile clean code in desktop mode.
+- On-boarding tutorial and categorized achievement badges with level progress.
+- Ook! Mascot appears in the desktop top bar, can be disabled in Preferences, idles locally, snacks occasionally, celebrates successful runs/compiles/achievements, and gets angry on compile/debug/breakpoint errors.
 - Orangutan Fact of the Day, selected from an embedded local fact bank and disableable in Preferences.
-- Local persistence for progress, achievements, theme, language, layout, breakpoints, and preferences.
+- Local persistence for progress, achievements, theme, language, layout, breakpoints, suggestions, and preferences.
 - WCAG-minded controls, labels, focus states, and keyboard-friendly modal behaviour.
 
 ## Quick Start
@@ -48,6 +53,17 @@ Ook!++ say "Hi!"
 ```
 
 Then switch the compiler to `Ook!` to see the same tiny programme as classic paired-token Ook!.
+
+Try `Suggest` on rough input too:
+
+```text
+console.log("OOK")
+prnt
+loop
+addd 2
+```
+
+With deterministic suggestions enabled, the IDE rewrites that into valid, annotated Ook!++ locally. If you enable the LLM service in Preferences, the response is validated as Ook!++ before it replaces the editor content.
 
 ## Interesting Fact
 
