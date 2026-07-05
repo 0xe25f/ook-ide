@@ -3,11 +3,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/0xe25f/ook-ide?style=social)](https://github.com/0xe25f/ook-ide)
 
 <p>
-  <kbd>Offline ready</kbd>
+  <kbd>Offline Ready</kbd>
   <kbd>Single-file HTML</kbd>
   <kbd>No CDN</kbd>
-  <kbd>No server</kbd>
-  <kbd>MIT licensed</kbd>
+  <kbd>No Server</kbd>
+  <kbd>MIT Licensed</kbd>
 </p>
 
 **Do androids dream of orangutans?**
@@ -31,7 +31,8 @@ If this project made you smile, taught you something odd, or helped you make a t
 - Compiler output modes for JavaScript, Bf*, original Ook!, and Dragon Palm assembly.
 - Dragon Palm `.dgc` cartridge saving.
 - Manual overlay with copyable code blocks, tutorial pages, Credits, and MIT License pages.
-- On-boarding tutorial and expanded achievements for exploring, debugging, compiling, saving, and creating.
+- On-boarding tutorial and achievements system for exploring, debugging, compiling, saving, and creating.
+- Ookie the Orangutan mascot encourages you to compile clean code in desktop mode.
 - Orangutan Fact of the Day, selected from an embedded local fact bank and disableable in Preferences.
 - Local persistence for progress, achievements, theme, language, layout, breakpoints, and preferences.
 - WCAG-minded controls, labels, focus states, and keyboard-friendly modal behaviour.
