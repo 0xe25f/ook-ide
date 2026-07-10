@@ -85,6 +85,8 @@ GNU Terry Pratchett
 
 ## License
 
-MIT licensed.
+Ook!++ IDE is MIT licensed.
+
+Ookie the Orangutan used under license from Decent Enough Games. Ookie may not be reused for any other purpose than as a mascot within Ook!++ IDE without express written consent.
 
 Copyright 2026, Agent 57951.
